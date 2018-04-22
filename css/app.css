@@ -1,0 +1,297 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+    html,body,*{
+        margin: 0;
+        padding: 0;
+    }
+
+/* per I-pone 6 */
+
+@media screen and (max-width: 480px){
+
+    .arrow  {
+        display: none;
+    }
+    .arrow a {
+        display: none;
+    }
+    .color1{
+        width: 100%;
+        height: 50%;
+    }
+
+    .color1 .menu ul li a {
+        font: 1.2rem bold;
+    }
+
+    .color1 .logo {
+        left: 10%;
+        top: 10%;
+    }
+
+    .color1 .logo img{
+        width: 25%;
+    }
+
+    .txt_home img {
+        width: 9%;
+        margin-bottom: 4%;
+    }
+
+    .color{
+        width: 100%;
+        height: 50%;
+        top: 50%;
+        left: 0;
+    }
+    .container h1 {
+        font: 1.8rem bold;
+    }
+    .container .par p {
+        line-height: 1.2;
+        max-width: 124px;
+        margin-top: 7px;
+        font-size: 1.2rem;
+    }
+
+
+    /*about*/
+    .left {
+        width: 100%;
+        height: 50%;
+        top: 0;
+        left: 0;
+    }
+
+    .right {
+        width: 100%;
+        height: 50%;
+        top: 50%;
+        left: 0;
+    }
+
+    .left h1 {
+        font: 1.8rem bold;
+}
+
+    .left .par1 p {
+        font-size: 1.2rem;
+        line-height: 1.2;
+        max-width: 70%;
+    }
+
+    .right h1 {
+        font: 1.8rem bold;
+        margin-right: 0;
+
+    }
+
+    .single-service .par2 {
+        font-size: 1.2rem;
+    }
+
+
+    .Ellipse_1 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Ellipse_1 img {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .Ellipse_2 img {
+        margin-top: 7px;
+    }
+
+    .Ellipse_2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    /*second*/
+
+    .second .left2 {
+        background-color: #3a3939;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        left: 0;
+    }
+
+
+    .second .right2 {
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+    }
+
+    .second .left2 h1 {
+        font-size: 1.8rem;
+    }
+
+
+     .par3 {
+        font-size: 1.2rem;
+        padding-bottom: 40px;
+    }
+
+    .button {
+        margin-top: 40px;
+        /*font-size: 1.2rem;*/
+    }
+
+    .button_container {
+        width: 100%;
+        top: 66%;
+    }
+
+    .par_container {
+        width: 100%;
+    }
+
+    .second .left2.mywork_2 {
+        top: 50%;
+    }
+
+    .second .right2.mywork_2 {
+        top: 0;
+    }
+
+}
+
+/*per I-pad*/
+
+
+@media (max-width:900px) and (min-width:481px) {
+    .color1{
+        width: 100%;
+        height: 70%;
+    }
+
+    .color1 .menu ul li a {
+        font: 2.4rem bold;
+    }
+
+    .color{
+        width: 100%;
+        height: 70%;
+        top: 70%;
+        left: 0;
+    }
+
+    .container h1 {
+        font: 2.4rem bold;
+    }
+    .container .par p {
+        max-width: 200px;
+        margin-top: 7px;
+        font-size: 1.8rem
+    }
+
+
+   /* about*/
+
+    .left {
+        width: 100%;
+        height: 70%;
+        top: 40%;
+        left: 0;
+    }
+
+    .right {
+        width: 100%;
+        height: 70%;
+        top: 110%;
+        left: 0;
+    }
+
+    .left h1 {
+        font: 2.8rem bold;
+    }
+
+    .left .par1 p {
+        font-size: 1.8rem;
+        line-height: 1.2;
+        max-width: 60%;
+    }
+
+    .right h1 {
+        font: 2.8rem bold;
+        margin: 0;
+        padding: 0;
+    }
+
+    .single-service .par2 {
+        font-size: 1.2rem;
+
+    }
+
+    .Ellipse_1 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Ellipse_1 img {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .Ellipse_2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    /*third*/
+
+    .second .left2 {
+        background-color: #3a3939;
+        width: 100%;
+        height: 70%;
+        top: 80%;
+        left: 0;
+    }
+
+    .second .left2 h1 {
+        font-size: 2.8rem;
+    }
+
+    .second .right2 {
+        top: 150%;
+        left: 0;
+        width: 100%;
+        height: 70%;
+    }
+
+     .par3 {
+        font-size: 1.8rem;
+        padding-bottom: 40px;
+        min-width: 54%;
+    }
+
+    .button {
+        margin-top: 40px;
+    }
+    .button_container {
+        top: 73%;
+    }
+
+    .second .left2.mywork_2 {
+        top: 150%;
+    }
+
+    .second .right2.mywork_2 {
+        top: 80%;
+    }
+
+}

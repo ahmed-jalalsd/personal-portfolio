@@ -1,0 +1,274 @@
+/* per I-pone 6 */
+
+@media screen and (min-width:0) and (max-width: 480px){ 
+    
+      .sl{
+            display: block;
+            position: absolute;
+            top: 100%;
+       } 
+    
+    .color1 {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .color1 .menu ul li a {
+        font: 1.2rem bold;
+    }
+    
+     .color1 .logo {
+        left: 10%;
+        top: 10%;
+    }
+
+    .color1 .logo img{
+        width: 25%;    
+    }
+    
+    .txt_home img {
+        width: 14%;
+        margin-bottom: 8%; 
+    }
+    
+    .color{
+        width: 100%;
+        height: 50%;
+        top: 50%; 
+        left: 0;
+    }
+    .container h1 {
+        font: 1.8rem bold;
+    }
+    .container .par p {
+        line-height: 1.2;
+        max-width: 33%%;
+        margin-top: 7px;
+        font-size: 1.2rem;
+    }
+    
+    .first{
+           display: none;
+       }
+        .second{
+           display: none;
+       }
+       .third{
+           display: none;
+       }
+
+    /*part1*/
+    
+    .first .left{
+        display: none;
+    }
+    
+    .right.mywork {
+        width: 100%;
+        height: 50%;
+        top: 0%;
+        left: 0;
+    }
+    
+    /*part2*/
+    .second .left2 {
+        background-color: #3a3939;
+        width: 100%;
+        height: 50%;
+        top: -50%;;
+        left: 0;
+}
+
+    .second .right2 {
+       display: none;
+}
+    /*part3*/
+    
+    .third .left {
+       display: none;
+    }
+    
+    .right.mywork_3 {
+    width: 100%;
+    height: 50%;
+    top: -100%;
+    left: 0%;
+}
+    .footer2 {
+        display: block;
+        position: absolute;
+        top: 175%;
+        width: 100%;
+        text-align: center;
+        -ms-transform: translate(0, -50%);
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        padding-bottom: 10px;
+    }
+
+
+    .footer2 .paper {
+        width: 4%;
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    .footer2 .link {
+        width: 4%;
+        display: inline-block;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+    .footer2 .face {
+        width: 4%;
+        display: inline-block;
+        margin-right: 6px;
+    }
+    
+}
+
+   @media (max-width:900px) and (min-width:481px){
+    
+       .sl{
+            display: block;
+            position: absolute;
+            top: 140%;
+       }   
+    .color1{
+        width: 100%;
+        height: 70%;
+    }
+    
+    .color1 .menu ul li a {
+        font: 2.4rem bold;
+    }
+    
+    
+    .color{
+        width: 100%;
+        height: 70%;
+        top: 70%; 
+        left: 0;
+       }
+        .container h1 {
+        font: 2.4rem bold;
+    }
+    .container .par p {
+        max-width: 200px;
+        margin-top: 7px;
+        font-size: 1.8rem
+       }
+       
+       /*part1*/
+.first .left {
+        width: 100%;
+        height: 70%;
+        top: 110%;
+        left: 0;
+    }
+    
+    .right.mywork {
+        width: 100%;
+        height: 70%;
+        top: 40%;
+        left: 0;
+    }
+    
+    .left h1 {
+        font: 2.8rem bold;   
+}
+    
+    .left .par1 p {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    max-width: 42%;
+    }
+
+.right h1 {
+    font: 2.8rem bold;
+}
+       
+/*part2*/
+    .second .left2.mywork_2 {
+        width: 100%;
+        height: 70%;
+        top: 80%;
+        left: 0;
+}
+
+    .second .left2 h1 {
+        font-size: 2.8rem;
+}
+
+    .second .right2 {
+        top: 150%;
+        left: 0;
+        width: 100%;
+        height: 70%;
+}
+
+     .par3 {
+        font-size: 1.8rem;
+        padding-bottom: 40px;
+        min-width: 54%;
+    }
+       
+       .third .left {
+            width: 100%;
+            height: 70%;
+            top: 190%;
+            left: 0;    
+       }
+       .third .right.mywork_3{
+           width: 100%;
+            height: 70%;
+            top: 120%;
+            left: 0;
+       }
+       
+       .first{
+           display: none;
+       }
+        .second{
+           display: none;
+       }
+       .third{
+           display: none;
+       }
+
+    
+    .footer2 {
+        display: block;
+        position: absolute;
+       top: 380%;
+        text-align: center;
+        -ms-transform: translate(0, -50%);
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+
+    .footer2 .paper {
+        width: 4%;
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    .footer2 .link {
+        width: 4%;
+        display: inline-block;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+    .footer2 .face {
+        width: 4%;
+        display: inline-block;
+        margin-right: 6px;
+    }
+    
+    
+   } 
